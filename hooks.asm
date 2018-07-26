@@ -194,7 +194,7 @@ _loop:
 _:	add	a, t0
 	ld	(hl), a
 	inc	hl
-	ld (hl), tComma
+	ld 	(hl), tComma
 	inc hl
 	ld	(hl), 0
 	ld	hl, saveSScreen + 9
